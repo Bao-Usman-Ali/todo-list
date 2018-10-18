@@ -1,0 +1,80 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Todos Application</title>
+        <link href="css/all.min.css" rel="stylesheet">
+        <link href="css/materialize.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+
+
+
+    </head>
+    <body>
+        <div class="container">
+         <div class="alert feedback">
+                
+         </div>
+                    
+
+                    <!-- form -->
+                    <div class="container" >
+                        <div class="row">
+                    <form id="itemForm">
+                        <h3 class="center white-text">to do list</h3>
+                        <div class="col s8">
+                        <div class="input-field">
+                            <i class="fas fa-pen prefix" id="pen"></i>
+                         <input type="text" class="form-control white-text" id="itemInput" placeholder="name...">
+                         </div>
+                         </div>
+                         <div class="col s4">
+                         <div class="input-field" id="button">
+                                <a href="JavaScript:void(0)" class="btn black white-text waves-effect waves-light" id="add-item" type="submit" > Add Item </a>
+                                <!-- show and hide button -->
+                                <a href="JavaScript:void(0)" onclick="myfunction()" class="btn black waves-effect waves-light" id="show">Show and Hide List</a>
+                          </div>
+                          </div>
+                 
+                       </form>
+                     
+                       <!-- row ends here -->
+                      </div>
+                       <!-- container ends here -->
+                       </div>
+                       <div class="item-container">
+                            <!-- end of form  -->
+                            <div class="item-list" id="usman">
+                             <!-- single item -->
+                             <!-- <div class="item">
+                             <h5 class="item-name">laundry</h5>
+                             <div class="item-icons">
+                              <a href="#" class="complete-item mx-2 item-icon"><i class="far fa-check-circle"></i></a>
+                              <a href="#" class="edit-item mx-2 item-icon"><i class="far fa-edit"></i></a>
+                              <a href="#" class="delete-item item-icon"><i class="far fa-times-circle"></i></a>
+                             </div>
+                            </div> -->
+                             <!-- end of single item -->
+                            
+
+                           </div>
+                         
+                           <div class="input-field">
+                            <a href="JavaScript:void(0)" class="btn white-text waves-effect waves-light" id="clear-list">Clear Items</a>
+                            </div>
+                           </div>
+                           <!-- container ends here -->
+                           </div>
+
+
+
+
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/todo.js"></script>
+    </body>
+    </html>

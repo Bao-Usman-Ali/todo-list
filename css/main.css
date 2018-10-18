@@ -1,0 +1,149 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainGreen: #80cfa9;
+  --mainBlack: #333333;
+  --mainRed: #d62828;
+  --mainBlue: #11b5e4;
+}
+
+
+.feedback {
+  display: none;
+  background-color: red;
+  opacity: 0.6;
+  text-align: center;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.complete-item {
+  color: var(--mainGreen);
+}
+.complete-item:hover {
+  color: var(--mainGreen);
+}
+.edit-item {
+  color: var(--mainBlue);
+}
+.edit-item:hover {
+  color: var(--mainBlue);
+}
+.delete-item {
+  color: var(--mainRed);
+}
+.delete-item:hover {
+  color: var(--mainRed);
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.visibility {
+  opacity: 0.5;
+}
+.showItem {
+  display: block;
+}
+body{
+  background-image: url('../image/stars.jpg');
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+#name{
+  
+  left: 25%;
+}
+#add{
+  left:47%; 
+}
+
+ #clear-list:hover{
+   background:var(--mainGreen);
+ }
+ #clear-list{
+   background: transparent;
+   position: absolute;
+   top: 15vh;
+   left:42%;
+   transform: translateY(-50%);
+
+ }
+ 
+ #button{
+   position: absolute;
+   top: 16%;
+   left: 57.6%;
+ }
+ @media screen and (max-width:360px){
+   #show{
+     margin-top: 12%;
+    
+    
+   }
+ }
+ body{
+   margin: 0px;
+   padding: 0px;
+ }
+ @media screen and (max-width:360px){
+  #usman{
+    margin-top: 15%;
+  
+  }
+}
+@media screen and (max-width:702px){
+  #show{
+    margin-top: 2%;
+   
+  }
+}
+@media screen and (max-width:447px){
+  #show{
+    font-size: 12px;
+   
+  }
+}
+@media screen and (max-width:360px){
+  #button{
+    left:62%;
+    top:15%;
+   
+  }
+}
+@media screen and (max-width:360px){
+  #button{
+    left:62%;
+    top:15%;
+  
+   
+  }
+}
+
+@media screen and (max-width:360px){
+  #clear-list{
+  position: absolute;
+  left: 35%;
+
+   
+  }
+}
+#pen{
+  top:30%;
+}
+@media screen and (max-width:360px){
+  #show{
+    font-size: 9px;
+   
+  }
+}
+
+ 
